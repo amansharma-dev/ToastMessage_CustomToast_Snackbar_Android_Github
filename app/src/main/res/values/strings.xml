@@ -8,4 +8,6 @@
     <string name="text_show_toast">Show Toast</string>
     <string name="text_show_custom_toast">Show Custom Toast</string>
     <string name="text_show_custom_toast_text">Hello, This is a Custom Toast.</string>
+    <string name="text_show_snackbar">Show Snackbar</string>
+    <string name="text_show_snackbar_action">Show Snackbar with Action</string>
 </resources>

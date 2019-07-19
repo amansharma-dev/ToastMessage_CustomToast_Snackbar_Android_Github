@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SnackbarActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="65dp"
+            android:layout_marginBottom="5dp"
+            android:textAllCaps="false"
+            android:text="@string/text_show_snackbar"
+            android:onClick="showSnackbar"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false"
+            android:text="@string/text_show_snackbar_action"
+            android:onClick="showSnackbarWithAction"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
