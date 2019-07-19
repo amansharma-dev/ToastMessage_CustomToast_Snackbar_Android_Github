@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ToastMessage_CustomToast_Snackbar_Android_Github</string>
+    <string name="button_toast">Toast</string>
+    <string name="button_snackbar">Snackbar</string>
+    <string name="text_toast_duration">Toast Duration</string>
+    <string name="text_toast_short">Short</string>
+    <string name="text_toast_long">Long</string>
+    <string name="text_show_toast">Show Toast</string>
+    <string name="text_show_custom_toast">Show Custom Toast</string>
+    <string name="text_show_custom_toast_text">Hello, This is a Custom Toast.</string>
 </resources>
